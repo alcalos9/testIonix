@@ -1,8 +1,8 @@
 # testIonix
 A continuación se especifica el detalle de los servicios que contiene el proyecto:
 
-Servicios:
- - put createUser: http://localhost:8888/user/createUser
+##Servicios:
+### put createUser: http://localhost:8888/user/createUser
     Request:
       {
           "name": "Peter Robert Ironman",
@@ -15,7 +15,7 @@ Servicios:
           "result": true,
           "message": "saved"
       }
-  - get allUser: http://localhost:8888/user/allUser
+### get allUser: http://localhost:8888/user/allUser
     Response:
       {
           "result": true,
@@ -30,7 +30,7 @@ Servicios:
               }
           ]
       }
-- get userByEmail: http://localhost:8888/user/userByEmail
+### get userByEmail: http://localhost:8888/user/userByEmail
   Request:
     {
       "email":"pruebaI@ctt.cl"
@@ -49,7 +49,7 @@ Servicios:
           }
       ]
     }
-- post cifrado: http://localhost:8888/cifrado?rut=1-9
+### post cifrado: http://localhost:8888/cifrado?rut=1-9
   Response:
     {
       "responseCode": 0,
