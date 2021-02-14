@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "cifrado.llave",
+    "type": "java.lang.String",
+    "description": "A description for 'cifrado.llave'"
+  },
+  {
+    "name": "cifrado.URL",
+    "type": "java.lang.String",
+    "description": "A description for 'cifrado.URL'"
+  },
+  {
+    "name": "cifrado.URL",
+    "type": "java.lang.String",
+    "description": "A description for 'cifrado.URL'"
+  },
+  {
+    "name": "cifrado.url",
+    "type": "java.lang.String",
+    "description": "A description for 'cifrado.url'"
+  }
+]}
