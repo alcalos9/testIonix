@@ -104,7 +104,7 @@ public class UserController {
 			Iterable<User> users = userRepository.findAll();
 			if(users != null) {
 				for (User user : users) {
-					if(user.getEmail().equalsIgnoreCase(email.getEmail()))
+					if(user.getEmail() != null && user.getEmail().equalsIgnoreCase(email.getEmail()))
 						usersFind.add(user);
 				}
 				result = true;
