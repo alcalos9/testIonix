@@ -1,7 +1,7 @@
 # testIonix
 A continuación se especifica el detalle de los servicios que contiene el proyecto:
 
-##Servicios:
+## Servicios:
 ### put createUser: http://localhost:8888/user/createUser
     Request:
       {
@@ -32,10 +32,12 @@ A continuación se especifica el detalle de los servicios que contiene el proyec
       }
 ### get userByEmail: http://localhost:8888/user/userByEmail
   Request:
+
     {
       "email":"pruebaI@ctt.cl"
     }
   Response:
+  
     {
       "result": true,
       "message": "ok",
@@ -51,6 +53,7 @@ A continuación se especifica el detalle de los servicios que contiene el proyec
     }
 ### post cifrado: http://localhost:8888/cifrado?rut=1-9
   Response:
+  
     {
       "responseCode": 0,
       "description": "OK",
